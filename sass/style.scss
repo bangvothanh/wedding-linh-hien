@@ -1016,7 +1016,14 @@ form {
 		padding: 3em 0;
 	}
 }
-
+.fh5co-img {
+	background-position: center;
+	background-size: cover;
+	height: 300px; /* Adjust the height as needed */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
 .fh5co-section-gray{
 	background: rgba($brand-black,.04);
 }
