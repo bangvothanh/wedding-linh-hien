@@ -1815,3 +1815,15 @@ form label {
 
 /*# sourceMappingURL=style.css.map */
 
+.responsive-address {
+  display: none;
+}
+@media only screen and (max-width: 595px) {
+  .custom-address {
+    display: none;
+  }
+  .responsive-address {
+    display: block;
+    
+  }  
+}
