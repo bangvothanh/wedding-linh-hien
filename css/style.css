@@ -7,14 +7,18 @@
 }
 @font-face { font-family: Amsterdam; src: url('../fonts/AmsterdamOne.ttf'); } 
 
+/* font-family: 'Great Vibes', cursive; */
 /* =======================================================
 *
 * 	Template Style 
 *
 * ======================================================= */
 body {
-  font-family: "Work Sans", Arial, sans-serif;
+  /* font-family: "Work Sans", Arial, sans-serif; */
+  font-family: 'Playpen Sans', cursive;
+
   font-weight: 400;
+
   font-size: 16px;
   line-height: 1.7;
   color: #828282;
@@ -66,7 +70,9 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
-  font-family: "Work Sans", Arial, sans-serif;
+  /* font-family: "Work Sans", Arial, sans-serif; */
+  font-family: 'Playpen Sans', cursive;
+  
   font-weight: 400;
   margin: 0 0 20px 0;
 }
@@ -105,7 +111,9 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
   padding: 0;
   line-height: 40px;
-  font-family: "Sofia Sans Condensed";
+  /* font-family: "Sofia Sans Condensed"; */
+  font-family: 'Playpen Sans', cursive;
+
 }
 .fh5co-nav a {
   padding: 5px 10px;
@@ -127,8 +135,10 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline;
 }
 .fh5co-nav ul li a {
-  font-size: 20px;
-  font-family: Sofia Sans Condensed;
+  font-size: 12px;
+  /* font-family: Sofia Sans Condensed; */
+  font-family: 'Playpen Sans', cursive;
+
   padding: 30px 10px;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.5);
@@ -429,7 +439,9 @@ h1, h2, h3, h4, h5, h6, figure {
   padding-bottom: 20px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-family: Sofia Sans Condensed;
+  /* font-family: Sofia Sans Condensed; */
+  font-family: 'Playpen Sans', cursive;
+
   font-size: 25px;
 }
 #fh5co-counter .event-wrap p, #fh5co-counter .event-wrap span,
@@ -437,7 +449,9 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-event .event-wrap span {
   display: block;
   color: rgba(0, 0, 0, 0.8);
-  font-family: Sofia Sans Condensed;
+  /* font-family: Sofia Sans Condensed; */
+  font-family: 'Playpen Sans', cursive;
+
   font-size: 20px;
 }
 #fh5co-counter .event-wrap i,
@@ -849,9 +863,9 @@ form label {
 #fh5co-counter .display-tc h1,
 .fh5co-cover .display-tc h1 {
   margin-bottom: 0px;
-  font-size: 80px;
+  font-size: 75px;
   line-height: 1.5;
-  font-family: "Amatic SC", Arial, serif;
+  font-family: 'Great Vibes', cursive;
 }
 @media screen and (max-width: 768px) {
   #fh5co-header .display-tc h1,
@@ -873,7 +887,7 @@ form label {
   font-size: 20px;
   line-height: 1.5;
   margin-top: 20px;
-  font-family: "Amatic SC";
+  font-family: 'Playpen Sans', cursive;
 }
 @media screen and (max-width: 480px) {
   #fh5co-header .display-tc h2,
@@ -890,7 +904,9 @@ form label {
   color: #646464;
   border: none !important;
   font-size: 16px;
-  font-family: Sofia Sans Condensed;
+  /* font-family: Sofia Sans Condensed; */
+  font-family: 'Playpen Sans', cursive;
+
   text-transform: uppercase;
 }
 #fh5co-header .display-tc .btn:hover,
@@ -1035,7 +1051,8 @@ form label {
   }
 }
 .couple-half h3 {
-  font-family: "Amsterdam", Arial, serif;
+  /* font-family: "Amsterdam", Arial, serif; */
+  font-family: 'Playpen Sans', cursive;
   color: #646464;
   font-size: 30px;
 }
@@ -1152,7 +1169,9 @@ form label {
   line-height: 1.5;
   font-weight: bold;
   color: #646464;
-  font-family: "Amsterdam", Arial, serif;
+  /* font-family: "Amsterdam", Arial, serif; */
+  font-family: 'Playpen Sans', cursive;
+
 }
 @media screen and (max-width: 768px) {
   .fh5co-heading h2 {
@@ -1398,7 +1417,9 @@ form label {
   background: black;
   font-size: 14px;
   font-weight: bold;
-  font-family: Sofia Sans Condensed; 
+  /* font-family: Sofia Sans Condensed;  */
+  font-family: 'Playpen Sans', cursive;
+
   top: 0;
   right: 0;
   top: 0;
@@ -1620,7 +1641,9 @@ form label {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Work Sans", Arial, sans-serif;
+  /* font-family: "Work Sans", Arial, sans-serif; */
+  font-family: 'Playpen Sans', cursive;
+
   font-size: 16px;
   font-weight: 400;
   -webkit-border-radius: 30px;

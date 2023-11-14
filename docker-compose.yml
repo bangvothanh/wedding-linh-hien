@@ -4,6 +4,14 @@ services:
   app:
     build:
       context: .
-    image: vothanhbang14dt3/bangvothanh:wedding-invitation-online
+      dockerfile: Dockerfile.bang-vi
+    image: vothanhbang14dt3/bangvothanh:wedding-invitation-online-bangvi
     ports:
       - "8080:80"
+  app1:
+    build:
+      context: .
+      dockerfile: Dockerfile.vi-bang
+    image: vothanhbang14dt3/bangvothanh:wedding-invitation-online-vibang
+    ports:
+      - "8081:80"
