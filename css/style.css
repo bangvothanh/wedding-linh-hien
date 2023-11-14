@@ -1854,3 +1854,9 @@ form label {
 #header-wed {
   display: flex;
 }
+
+@media only screen and (max-width: 768px) {
+  .img-whispers {
+    width: 300px !important;
+  }
+}
