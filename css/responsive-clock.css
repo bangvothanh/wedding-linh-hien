@@ -180,7 +180,10 @@
 }
 
 .flip-clock-wrapper {
-  margin: 4em !important;
+  display: flex;
+  justify-content: center;
+  margin: 4em 0 !important;
+  width: auto !important;
 }
 
 .flip-clock-divider .flip-clock-label {
