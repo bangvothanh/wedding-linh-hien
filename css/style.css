@@ -433,7 +433,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-counter .event-wrap h3,
 #fh5co-event .event-wrap h3 {
   font-size: 14px;
-  color: #000000;
+  color: #646464;
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
   display: block;
   padding-bottom: 20px;
@@ -1167,7 +1167,7 @@ form label {
   font-size: 60px;
   margin-bottom: 10px;
   line-height: 1.5;
-  font-weight: bold;
+  font-weight: 300;
   color: #646464;
   /* font-family: "Amsterdam", Arial, serif; */
   font-family: 'Playpen Sans', cursive;
