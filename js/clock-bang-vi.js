@@ -12,11 +12,15 @@ $(document).ready(function () {
 
   if (diff <= 0) {
     // If remaining countdown is 0
-    clock = $(".clock").FlipClock(0, {
+    let diff2 = currentDate.getTime() / 1000 - targetDate / 1000;
+
+    clock = $(".clock").FlipClock(diff2, {
       clockFace: "DailyCounter",
-      countdown: true,
+      countdown: false,
       autostart: false
     });
+    $(".btn-default").replaceWith('<a  class="btn btn-default btn-sm">We got married</a>');
+
     console.log("Date has already passed!")
 
   } else {
@@ -27,6 +31,9 @@ $(document).ready(function () {
       callbacks: {
         stop: function () {
           console.log("Timer has ended!")
+          setTimeout(function () {
+            location.reload();
+          }, 1000);
         }
       }
     });
