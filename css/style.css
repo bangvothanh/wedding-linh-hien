@@ -1860,3 +1860,16 @@ form label {
     width: 300px !important;
   }
 }
+
+#fh5co-services iframe {
+  width: 744px;
+  height: 504px;
+}
+
+/* Media query for screens with a maximum width of 768 pixels */
+@media screen and (max-width: 768px) {
+  #fh5co-services iframe {
+      width: 100%;
+      height: 198px;
+  }
+}
